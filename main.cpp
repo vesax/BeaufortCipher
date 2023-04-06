@@ -58,6 +58,18 @@ fillimi:
         cout << "\tKeni shenuar komande te gabuar!";
         break;
     }
-    
+    string answer;
+    cout << "\n\tDëshironi ta provoni perseri? (po/jo): ";
+    cin >> answer;
+
+    if (answer == "po") {
+        goto fillimi;
+
+    }
+    else {
+        cout << "\n\tProcesi ka perfunduar!\n";
+        cout << "\tFaleminderit per kohen tuaj.\n";
+    }
+
     return 0;
 }
