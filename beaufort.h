@@ -32,8 +32,20 @@ string beaufort(string text, string key) {
 
     }
     return cipher;
-
 }
 
+//Shfaqja e tabeles se Beaufort Cipher
+void  tabela() {
+    string alfabeti = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
+    cout << "\n\t\tTabela e Beaufort Cipher\n";
+    for (int i = 0; i < alfabeti.size(); i++) {
+        cout << "\t";
+        for (int j = i; j < i + alfabeti.size(); j++) {
+            cout << alfabeti[j % alfabeti.size()] << " ";
+        }
+        cout << endl;
+    }
+
+}
 
 
