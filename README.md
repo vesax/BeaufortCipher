@@ -11,4 +11,4 @@
 </pre>
 <pre> Profesori: Mërgim Hoti </pre>
 
-<small> Prishtinë 2023 </small>
+#### Prishtinë 2023
